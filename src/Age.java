@@ -2,31 +2,31 @@ import java.util.Scanner;
 
 public class Age {
     public static void main(String[] args) {
-        // -> PARTIE : VARIABLES ET PRINT
+        // → PARTIE : VARIABLES ET PRINT
 
         //int age = 26;
         //double weight = 3.5;
         //boolean isFemale = true;
         //String firstName = "Dédé";
 
-        // -> println = print puis va à la ligne
-        // -> print = print mais ne retourne pas à la ligne
+        // → println = print puis va à la ligne
+        // → print = print mais ne retourne pas à la ligne
 
         //System.out.println("Hello World!"); //print "Hello World"
         //System.out.println("Bonjour tout le monde, je suis " + firstName);
         //System.out.println("J'ai " + age + " ans.");
         //System.out.println("Mon poids est de "  + weight + "kg.");
 
-        // -> PARTIE : SAISIT
+        // → PARTIE : SAISIT
 
-        // -> Demander à l'utilisateur de saisir son âge
+        // → Demander à l'utilisateur de saisir son âge
         //Scanner scan = new Scanner(System.in);
         //System.out.print("Entrez votre âge : ");
         //int age2 = scan.nextInt();
         //System.out.println("J'ai " + age2 + " ans.");
         //scan.close();
 
-        // -> PARTIE : CONDITION
+        // → PARTIE : CONDITION
 
         //int a = 5;
         //int b = 2;
@@ -39,7 +39,7 @@ public class Age {
         //System.out.println("a est égale à b");
         //}
 
-        // -> PARTIE : TEST 1
+        // → PARTIE : TEST 1
 
         int userAge;
 
@@ -58,7 +58,7 @@ public class Age {
             System.out.println("Vous êtes majeur !");
         }
 
-        // -> PARTIE : BOUCLE AVEC FOR
+        // → PARTIE : BOUCLE AVEC FOR
 
         //for (int i = 0; i < 10; i+=2) {
         //System.out.println(i);
@@ -70,7 +70,7 @@ public class Age {
         //}
         //}
 
-        // -> PARTIE : TEST 2 (de 00:00:00 à 23:59:59)
+        // → PARTIE : TEST 2 (de 00:00:00 à 23:59:59)
 
         //for (int i = 0; i < 24; i++) {
         //for (int j = 0; j < 60; j++) {
