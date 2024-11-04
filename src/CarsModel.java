@@ -9,18 +9,13 @@ public class CarsModel {
         // Déclarer et instancier un objet de type Scanner pour lire les entrées utilisateur
         Scanner input = new Scanner(System.in);
 
-        // Déclaration de 3 variables de type String pour les noms des marques
-        String marque1, marque2, marque3;
-
         // Demander à l'utilisateur de donner un nom de marque de voiture pour chaque variable
         System.out.print("Entrez le nom de la première marque de voiture : ");
-        marque1 = input.nextLine();
-
+        String marque1 = input.nextLine();
         System.out.print("Entrez le nom de la deuxième marque de voiture : ");
-        marque2 = input.nextLine();
-
+        String marque2 = input.nextLine();
         System.out.print("Entrez le nom de la troisième marque de voiture : ");
-        marque3 = input.nextLine();
+        String marque3 = input.nextLine();
 
         // Ajouter les marques de voiture à l'ArrayList
         marquesVoitures.add(marque1);
